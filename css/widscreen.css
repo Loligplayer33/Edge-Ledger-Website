@@ -1,0 +1,20 @@
+/*Align icon to left  */
+#what .items .item  {
+  display: flex;
+  
+}
+
+#what .items .item i{
+  margin: 0 .5rem 0 1.5rem;
+  align-self: center;
+}
+
+/* Contact flex 1:2 */
+
+#contact  .content-container{
+  flex: 1;
+}
+
+#contact .add-img{
+  flex: 1.5;
+}

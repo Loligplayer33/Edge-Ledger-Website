@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Robo', sans-serif;
+}
+
+
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Utility classes */
+
+.s-heading {font-size: 1rem}
+.m-heading {
+  font-size: 2rem;
+  line-height: 1.1rem;
+  margin: 2.5rem;
+}
+.l-heading {
+  font-size: 3.5rem;
+  line-height: 1.1rem;
+  margin: 2.5rem;
+}
+
+.leading {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  background: #93cb52;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.7rem 2rem;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: #7ab436;
+}
+
+
+/* Navbar */
+
+#navbar {
+  display: flex;
+  position: sticky;
+  background-color: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#navbar .name .ledger{
+  margin-left: 1.5rem;
+}
+
+#navbar .name .ledger  {
+  color: #93cb52;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+
+/* Header */
+
+#showcase {
+  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 2.5rem;
+}
+
+/* "What We Do" Section */
+
+#what {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#what span {
+  color: #7ab436;
+  margin-bottom: 1.3rem;
+}
+
+#what .items {
+  display: flex;
+  justify-content: space-around;
+}
+
+#what .items i {
+  background: #7ab436;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* Section 'Who We Are' */
+
+#who {
+  display: flex;
+  background: #333;
+  color: #fff; 
+}
+
+#who div {
+  flex: 1;
+}
+
+#who #group-img {
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+
+#who #who-content {
+  margin: 1rem 2rem;
+}
+
+.green{
+  color: #7ab436;
+}
+
+#who .who-heading {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#who #who-content ul {
+  padding-left: 0;
+}
+
+
+#who #who-content ul li{
+  list-style: none;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #444;
+}
+
+/* Clients Section */
+
+
+#clients .clients-heading {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+#clients .items {
+  display: flex;
+
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* Contact Section */
+
+#contact {
+  margin-top: 4rem;
+}
+
+#contact  .content-container{
+  display: flex;
+
+}
+
+#contact div {
+  flex: 1;
+}
+
+#contact .contact-form {
+  background: #93cb52;
+  color: #fff;
+}
+
+#contact .contact-form label {
+  display: block;
+  margin-top: 12px;
+}
+
+
+#contact .contact-form h1 {
+  font-size: 2.3rem;
+}
+
+#contact .contact-form .text {
+  margin-left: 1.5rem;
+}
+
+#contact form {
+  margin-left: 1rem;
+
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 80%;
+  padding: .5rem;
+  border-radius: 3px;
+  border-style: none;
+}
+
+#contact button {
+  margin:  1rem -.5rem;
+  padding: .5rem;
+  width: 86%;
+  color: #fff;
+  background: #333;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#contact button:hover {
+  background-color: #7ab436;
+}
+
+/* Footer */
+
+#footer .footer {
+  background-color: #444;
+  color: #fff;
+  padding: .5rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
